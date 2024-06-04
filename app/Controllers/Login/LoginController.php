@@ -47,16 +47,6 @@ class LoginController extends CorsController
         }
     }
 
-    /**
-     * Obtiene los datos del usuario al momento de cargar su perfil.
-     *
-     * @param int $userAccount
-     * @return array
-     */
-    public function getUserData($query) {
-
-    }
-
 
     /**
      * Guarda un nuevo usuario con la contraseña cifrada.
